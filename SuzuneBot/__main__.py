@@ -73,30 +73,30 @@ def get_readable_time(seconds: int) -> str:
 
 #kang with Credit Bitches
 PM_START_TEXT = """
-𝐇𝐞𝐥𝐥𝐨 𝐞𝐯𝐞𝐫𝐲𝐨𝐧𝐞 𝐭𝐡𝐢𝐬 𝐢𝐬 𝐬𝐮𝐳𝐮𝐧𝐞 𝐭𝐡𝐢𝐬 𝐬𝐢𝐝𝐞. 𝐀𝐬 𝐲𝐨𝐮 𝐤𝐧𝐨𝐰 𝐭𝐡𝐚𝐭 𝐦𝐲 𝐝𝐫𝐞𝐚𝐦 𝐢𝐬 𝐭𝐨 𝐛𝐞 𝐢𝐧 𝐜𝐥𝐚𝐬𝐬 𝐀 𝐬𝐨 𝐢𝐧 𝐭𝐞𝐥𝐞𝐠𝐫𝐚𝐦 𝐜𝐥𝐚𝐬𝐬 𝐀 𝐢𝐬 𝐭𝐨 𝐛𝐞 𝐭𝐡𝐞 𝐛𝐞𝐬𝐭 𝐛𝐨𝐭.
+𝐇𝐞𝐥𝐥𝐨 𝐞𝐯𝐞𝐫𝐲𝐨𝐧𝐞 𝐭𝐡𝐢𝐬 𝐢𝐬 𝐦𝐲𝐧𝐞 𝐭𝐡𝐢𝐬 𝐬𝐢𝐝𝐞. 𝐀𝐬 𝐲𝐨𝐮 𝐤𝐧𝐨𝐰 𝐭𝐡𝐚𝐭 𝐦𝐲 𝐝𝐫𝐞𝐚𝐦 𝐢𝐬 𝐭𝐨 𝐛𝐞 𝐢𝐧 𝐜𝐥𝐚𝐬𝐬 𝐀 𝐬𝐨 𝐢𝐧 𝐭𝐞𝐥𝐞𝐠𝐫𝐚𝐦 𝐜𝐥𝐚𝐬𝐬 𝐀 𝐢𝐬 𝐭𝐨 𝐛𝐞 𝐭𝐡𝐞 𝐛𝐞𝐬𝐭 𝐛𝐨𝐭.
 
 𝐏𝐫𝐞𝐬𝐬 /help 𝐓𝐨 𝐒𝐞𝐞 𝐀𝐥𝐥 𝐌𝐲 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬 𝐋𝐢𝐬𝐭.
 """
 G_START_TEXT = """
-Hello Suzune Is Here.
+Hello Myne Is Here.
 Uptime - {}!
 """
 
 HELP_STRINGS = """
 Hello My name is *{}*.
-Here's The Settings Of This Bot[.](https://telegra.ph/file/3f5b509b1ebf57ecba47d.jpg)
+Here's The Settings Of This Bot[.](https://telegra.ph/file/d2262903f0bb678e17e4b.jpg)
 
 """.format(
     dispatcher.bot.first_name,
     "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n",
 )
 
-SuzuneBot_IMG = "https://telegra.ph/file/a3868caeaf1b3e55ccc90.jpg"
+SuzuneBot_IMG = "https://telegra.ph/file/d2262903f0bb678e17e4b.jpg"
 
-SuzuneBotG_IMG = "https://telegra.ph/file/819b0d3b4d55636d19f59.jpg"
+SuzuneBotG_IMG = "https://telegra.ph/file/d2262903f0bb678e17e4b.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project by contacting [Nobita](https://t.me/TheNobita).
+ You can support the project by contacting [S L A D E](https://t.me/spryslade).
  Those who cannot provide monetary support are welcome to help us develop the bot at @VegaCodes.
  """
 
